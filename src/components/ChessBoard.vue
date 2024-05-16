@@ -50,21 +50,29 @@ const getPiece = (rowIndex: number, colIndex: number): string | undefined => {
  // Piesele albe 
   else if (rowIndex === 7 && colIndex === 7) {
     return '♖';
-  } else if (rowIndex === 7 && colIndex === 6) {
+  } 
+  else if (rowIndex === 7 && colIndex === 6) {
     return '♘'; 
-  } else if (rowIndex === 7 && colIndex === 5) {
+  } 
+  else if (rowIndex === 7 && colIndex === 5) {
     return '♗'; 
-  } else if (rowIndex === 7 && colIndex === 4) {
+  } 
+  else if (rowIndex === 7 && colIndex === 4) {
     return '♕'; 
-  } else if (rowIndex === 7 && colIndex === 3) {
+  } 
+  else if (rowIndex === 7 && colIndex === 3) {
     return '♔'; 
-  } else if (rowIndex === 7 && colIndex === 2) {
+  } 
+  else if (rowIndex === 7 && colIndex === 2) {
     return '♗'; 
-  } else if (rowIndex === 7 && colIndex === 1) {
+  } 
+  else if (rowIndex === 7 && colIndex === 1) {
     return '♘';
-  } else if (rowIndex === 7 && colIndex === 0) {
+  } 
+  else if (rowIndex === 7 && colIndex === 0) {
     return '♖';
-  } else if (rowIndex === 6) {
+  } 
+  else if (rowIndex === 6) {
     return '♙'; 
   }
   
